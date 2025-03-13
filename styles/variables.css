@@ -1,17 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --font-family: 'PressStart2P', sans-serif;
+  --font-family: 'PressStart2P', sans-fantasy;
   --font-family-variations: 'Inter', sans-serif;
-  --font-weight-variations: 400 700;
+  --font-weight-variations: 700;
   --font-weight: 400;
-  --font-stretch: normal;
   --font-size-text: 18px;
   --border-color: #000;
   --bg-color: #fff;
+  --bg-color-button: transparent;
   --color: #000;
   --color-text: #fff;
   --text-shadow-color: #ffffff;
-  --inline-size-page: clamp(375px, 100%, 696px);
+  --inline-size-page: clamp(375px, 100%, 698px);
   --font-size-header-title: clamp(3.0625rem, 1.8943rem + 4.9844vw, 4.0625rem);
   --font-size-line-height-title: clamp(3.0625rem, 1.8943rem + 4.9844vw, 4.0625rem);
   --font-size-header-text: clamp(0.875rem, 0.2179rem + 2.8037vw, 1.4375rem);

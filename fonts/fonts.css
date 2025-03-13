@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'PressStart2P';
   src: url(../fonts/PressStart2P-Regular.woff) format('woff');
-  font-weight: var(--font-weight);
+  font-weight: 400;
   font-display: swap;
 }
 
@@ -13,6 +13,6 @@
     local('Inter'),
     url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
     url('../fonts/Inter-Variable.woff2') format('woff2-variations');
-    font-weight: var(--font-weight-variations);
-    font-stretch: var(--font-stretch);
+    font-weight: 400 700;
+    font-stretch: normal;
 }
